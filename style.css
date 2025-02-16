@@ -1,0 +1,173 @@
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a, #292929);
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border: 0px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    display: flex;
+    height: 60px;
+    
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: fantasy;
+    font-size: large;
+    margin-left: auto;
+    right: 100px;
+    gap: 30px;
+    padding-right: 5%;
+    display: inline-flex;
+    
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+
+}
+
+body{
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a, #292929);
+    display: flex;
+    
+}
+
+.card{
+    display: flex !important;
+    gap: 20px;
+}
+
+.porshe{
+    background:white;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 250px;
+    width: 200px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-right: 450px;
+    margin-left: 30px;
+
+}
+.porshe:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.porshe img{
+    width: 100%;
+    height: 120px;
+}
+
+ .porshe h3{
+    font-family: cursive; 
+
+}
+
+.porshe p{
+    font-weight: 550;
+}
+
+.Aston{
+    background:white;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 250px;
+    width: 200px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-right: 400px
+
+}
+.Aston:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.Aston img{
+    width: 100%;
+    height: 120px;
+}
+
+ .Aston h3{
+    font-family: cursive; 
+
+}
+
+.Aston p{
+    font-weight: 550;
+}
+
+.pagani{
+    background:white;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 250px;
+    width: 200px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    
+
+}
+.pagani:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.pagani img{
+    width: 100%;
+    height: 120px;
+}
+
+ .pagani h3{
+    font-family: cursive; 
+
+}
+
+.pagani p{
+    font-weight: 550;
+}
+
+#car {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
